@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./Components/Home/Home";
+import Navbar from "./Components/Layout/Navbar";
+import Footer from "./Components/Layout/Footer";
+import Cart from "./Components/Cart/Cart";
+import Order from './Components/Order/Order';
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route  path="/" Component={ Home }/>
+        <Route path="/cart" Component={ Cart } />
+        <Route path="/order" Component={ Order } />
+      </Routes>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={1000}
+        hideProgressBar={true}
+        newestOnTop={false}
+        theme="colored"
+      />
+      <Footer />
+    </Router>
   );
 }
 

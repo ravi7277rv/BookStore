@@ -1,0 +1,97 @@
+.confirmModal_div{
+    width: 600px;
+    height: 500px;
+    background: rgb(241, 241, 241);
+    border-top: 10px solid tomato;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.modalHeading{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid tomato;
+}
+.modalHeading h3{
+    color: tomato;
+    margin-left: 20px;
+
+}
+.modalHeading span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(225, 225, 224);
+    color: tomato;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.modalHeading span:hover{
+    background: tomato;
+    cursor: pointer;
+    color: white;
+    transition: 1s ease;
+}
+
+
+.modalitems{
+    width: auto;
+    min-height: 300px;
+    margin: 10px;
+}
+
+.listpricediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 5px 5px 20px;
+
+}
+
+
+.modalsubtotal{
+    width: auto;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid tomato;
+}
+
+.modalsubtotal p{
+    margin: 5px 10px;
+    line-height: 70px;
+}
+
+.modalCbutton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalCbutton button{
+    border: none;
+    background: tomato;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 2px 10px;
+
+}
+
+.modalCbutton button:hover{
+    background: rgb(239, 51, 17);
+    color: aliceblue;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+
+

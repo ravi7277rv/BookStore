@@ -1,0 +1,2 @@
+export const CONFIRM_ORDER = "CONFIRM_ORDER";
+export const DELETE_ORDER = "DELETE_ORDER";

@@ -1,0 +1,89 @@
+.maindiv{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background:black;
+    font-size: 18px;
+}
+
+.homediv{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.cartdiv{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.cartdiv p{
+    color: white;
+}
+
+.orderdiv{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 20%;
+    padding: 8px;
+}
+.link:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.link1{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    border-radius: 20%;
+    padding: 8px;
+}
+.link1:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.link1_1{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    border-radius: 20%;
+    padding: 8px;
+}
+
+.link1_1:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.cartCount{
+    font-size: 15px;
+}
+
+

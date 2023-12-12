@@ -1,0 +1,100 @@
+.previewOrderBox{
+    width: 900px;
+    min-height: 600px;
+    background: white;
+}
+
+.previewHeading{
+    width: auto;
+    height: 60px;
+    background: tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.previewHeading span{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.previewHeading span:hover{
+    cursor: pointer;
+    background: rgb(244, 47, 12);
+    color: aliceblue;
+    transition: 1s ease-in;
+    border: 1px solid rgb(244, 47, 12);
+}
+
+.previewHeading h3{
+    color: white;
+    margin-left: 20px;
+}
+
+.previeorderdetails{
+    width: auto;
+    min-height: 480px;
+}
+
+.previewdetails{
+    width: auto;
+    height: 110px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(244, 244, 244);
+}
+
+.previeimg{
+    width: 15%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.previeimg img{
+    width: 100px;
+    height: 100px;
+}
+
+.previewtitleprice{
+    width: 90%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.previewtitleprice h4{
+    margin: 0px 20px;
+}
+
+.previewtitleprice p{
+    margin: 0px 20px;
+}
+
+.previeSubTotal{
+    border-top: 1px solid tomato;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.previeSubTotal p{
+    margin: 2px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
